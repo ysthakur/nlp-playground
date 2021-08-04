@@ -6,3 +6,4 @@ imdb_reviews/test
 imdb_reviews/train
 *.csv
 *.tsv
+*.pkl
