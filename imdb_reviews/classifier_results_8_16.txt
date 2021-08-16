@@ -1,0 +1,893 @@
+Random Forest + tf-idf:
+RandomForestClassifier(max_depth=10, min_samples_leaf=2) + tfidf
+Mean accuracy: 0.8204
+TP: 1948 | FN: 300
+FP: 598 | TN: 2154
+RandomForestClassifier(max_depth=10, min_samples_leaf=2, n_estimators=400) + tfidf
+Mean accuracy: 0.8314
+TP: 2012 | FN: 309
+FP: 534 | TN: 2145
+RandomForestClassifier(max_depth=10, min_samples_leaf=2, n_estimators=800) + tfidf
+Mean accuracy: 0.8366
+TP: 2023 | FN: 294
+FP: 523 | TN: 2160
+RandomForestClassifier(max_depth=10, min_samples_leaf=10) + tfidf
+Mean accuracy: 0.8206
+TP: 1942 | FN: 293
+FP: 604 | TN: 2161
+RandomForestClassifier(max_depth=10, min_samples_leaf=10, n_estimators=400) + tfidf
+Mean accuracy: 0.8334
+TP: 2006 | FN: 293
+FP: 540 | TN: 2161
+RandomForestClassifier(max_depth=10, min_samples_leaf=10, n_estimators=800) + tfidf
+Mean accuracy: 0.8374
+TP: 2016 | FN: 283
+FP: 530 | TN: 2171
+RandomForestClassifier(max_depth=10, min_samples_leaf=30) + tfidf
+Mean accuracy: 0.8172
+TP: 1961 | FN: 329
+FP: 585 | TN: 2125
+RandomForestClassifier(max_depth=10, min_samples_leaf=30, n_estimators=400) + tfidf
+Mean accuracy: 0.829
+TP: 2012 | FN: 321
+FP: 534 | TN: 2133
+RandomForestClassifier(max_depth=10, min_samples_leaf=30, n_estimators=800) + tfidf
+Mean accuracy: 0.8326
+TP: 2029 | FN: 320
+FP: 517 | TN: 2134
+RandomForestClassifier(max_depth=15, min_samples_leaf=2) + tfidf
+Mean accuracy: 0.8328
+TP: 2013 | FN: 303
+FP: 533 | TN: 2151
+RandomForestClassifier(max_depth=15, min_samples_leaf=10, n_estimators=400) + tfidf
+Mean accuracy: 0.8332
+TP: 2015 | FN: 303
+FP: 531 | TN: 2151
+RandomForestClassifier(max_depth=15, min_samples_leaf=30, n_estimators=800) + tfidf
+Mean accuracy: 0.8306
+TP: 2029 | FN: 330
+FP: 517 | TN: 2124
+RandomForestClassifier(max_depth=20, min_samples_leaf=2) + tfidf
+Mean accuracy: 0.8288
+TP: 2012 | FN: 322
+FP: 534 | TN: 2132
+RandomForestClassifier(max_depth=20, min_samples_leaf=10, n_estimators=400) + tfidf
+Mean accuracy: 0.8362
+TP: 2034 | FN: 307
+FP: 512 | TN: 2147
+RandomForestClassifier(max_depth=20, min_samples_leaf=30, n_estimators=800) + tfidf
+Mean accuracy: 0.8346
+TP: 2056 | FN: 337
+FP: 490 | TN: 2117
+
+Random Forest + PV-DM:
+RandomForestClassifier(max_depth=10, min_samples_leaf=2) + d2vdm
+Mean accuracy: 0.7958
+TP: 2071 | FN: 546
+FP: 475 | TN: 1908
+RandomForestClassifier(max_depth=10, min_samples_leaf=2, n_estimators=400) + d2vdm
+Mean accuracy: 0.7954
+TP: 2076 | FN: 553
+FP: 470 | TN: 1901
+RandomForestClassifier(max_depth=10, min_samples_leaf=2, n_estimators=800) + d2vdm
+Mean accuracy: 0.7958
+TP: 2081 | FN: 556
+FP: 465 | TN: 1898
+RandomForestClassifier(max_depth=10, min_samples_leaf=10) + d2vdm
+Mean accuracy: 0.7924
+TP: 2063 | FN: 555
+FP: 483 | TN: 1899
+RandomForestClassifier(max_depth=10, min_samples_leaf=10, n_estimators=400) + d2vdm
+Mean accuracy: 0.7946
+TP: 2065 | FN: 546
+FP: 481 | TN: 1908
+RandomForestClassifier(max_depth=10, min_samples_leaf=10, n_estimators=800) + d2vdm
+Mean accuracy: 0.7944
+TP: 2068 | FN: 550
+FP: 478 | TN: 1904
+RandomForestClassifier(max_depth=10, min_samples_leaf=30) + d2vdm
+Mean accuracy: 0.78
+TP: 2033 | FN: 587
+FP: 513 | TN: 1867
+RandomForestClassifier(max_depth=10, min_samples_leaf=30, n_estimators=400) + d2vdm
+Mean accuracy: 0.7902
+TP: 2060 | FN: 563
+FP: 486 | TN: 1891
+RandomForestClassifier(max_depth=10, min_samples_leaf=30, n_estimators=800) + d2vdm
+Mean accuracy: 0.789
+TP: 2053 | FN: 562
+FP: 493 | TN: 1892
+RandomForestClassifier(max_depth=15, min_samples_leaf=2) + d2vdm
+Mean accuracy: 0.7922
+TP: 2052 | FN: 545
+FP: 494 | TN: 1909
+RandomForestClassifier(max_depth=15, min_samples_leaf=10, n_estimators=400) + d2vdm
+Mean accuracy: 0.797
+TP: 2074 | FN: 543
+FP: 472 | TN: 1911
+RandomForestClassifier(max_depth=15, min_samples_leaf=30, n_estimators=800) + d2vdm
+Mean accuracy: 0.7894
+TP: 2052 | FN: 559
+FP: 494 | TN: 1895
+RandomForestClassifier(max_depth=20, min_samples_leaf=2) + d2vdm
+Mean accuracy: 0.7938
+TP: 2065 | FN: 550
+FP: 481 | TN: 1904
+RandomForestClassifier(max_depth=20, min_samples_leaf=10, n_estimators=400) + d2vdm
+Mean accuracy: 0.7978
+TP: 2073 | FN: 538
+FP: 473 | TN: 1916
+RandomForestClassifier(max_depth=20, min_samples_leaf=30, n_estimators=800) + d2vdm
+Mean accuracy: 0.7892
+TP: 2055 | FN: 563
+FP: 491 | TN: 1891
+
+Random Forest + PV-DBOW:
+RandomForestClassifier(max_depth=10, min_samples_leaf=2) + d2vdbow
+Mean accuracy: 0.8052
+TP: 2200 | FN: 628
+FP: 346 | TN: 1826
+RandomForestClassifier(max_depth=10, min_samples_leaf=2, n_estimators=400) + d2vdbow
+Mean accuracy: 0.8046
+TP: 2209 | FN: 640
+FP: 337 | TN: 1814
+RandomForestClassifier(max_depth=10, min_samples_leaf=2, n_estimators=800) + d2vdbow
+Mean accuracy: 0.804
+TP: 2208 | FN: 642
+FP: 338 | TN: 1812
+RandomForestClassifier(max_depth=10, min_samples_leaf=10) + d2vdbow
+Mean accuracy: 0.7988
+TP: 2176 | FN: 636
+FP: 370 | TN: 1818
+RandomForestClassifier(max_depth=10, min_samples_leaf=10, n_estimators=400) + d2vdbow
+Mean accuracy: 0.8024
+TP: 2184 | FN: 626
+FP: 362 | TN: 1828
+RandomForestClassifier(max_depth=10, min_samples_leaf=10, n_estimators=800) + d2vdbow
+Mean accuracy: 0.8006
+TP: 2186 | FN: 637
+FP: 360 | TN: 1817
+RandomForestClassifier(max_depth=10, min_samples_leaf=30) + d2vdbow
+Mean accuracy: 0.795
+TP: 2199 | FN: 678
+FP: 347 | TN: 1776
+RandomForestClassifier(max_depth=10, min_samples_leaf=30, n_estimators=400) + d2vdbow
+Mean accuracy: 0.7972
+TP: 2200 | FN: 668
+FP: 346 | TN: 1786
+RandomForestClassifier(max_depth=10, min_samples_leaf=30, n_estimators=800) + d2vdbow
+Mean accuracy: 0.7978
+TP: 2182 | FN: 647
+FP: 364 | TN: 1807
+RandomForestClassifier(max_depth=15, min_samples_leaf=2) + d2vdbow
+Mean accuracy: 0.8076
+TP: 2205 | FN: 621
+FP: 341 | TN: 1833
+RandomForestClassifier(max_depth=15, min_samples_leaf=10, n_estimators=400) + d2vdbow
+Mean accuracy: 0.8088
+TP: 2213 | FN: 623
+FP: 333 | TN: 1831
+RandomForestClassifier(max_depth=15, min_samples_leaf=30, n_estimators=800) + d2vdbow
+Mean accuracy: 0.7986
+TP: 2181 | FN: 642
+FP: 365 | TN: 1812
+RandomForestClassifier(max_depth=20, min_samples_leaf=2) + d2vdbow
+Mean accuracy: 0.8122
+TP: 2191 | FN: 584
+FP: 355 | TN: 1870
+RandomForestClassifier(max_depth=20, min_samples_leaf=10, n_estimators=400) + d2vdbow
+Mean accuracy: 0.8096
+TP: 2218 | FN: 624
+FP: 328 | TN: 1830
+RandomForestClassifier(max_depth=20, min_samples_leaf=30, n_estimators=800) + d2vdbow
+Mean accuracy: 0.7986
+TP: 2181 | FN: 642
+FP: 365 | TN: 1812
+
+Random Forest + PV-DM (100 dims):
+RandomForestClassifier(max_depth=10, min_samples_leaf=2) + d2vdm100
+Mean accuracy: 0.7796
+TP: 1978 | FN: 534
+FP: 568 | TN: 1920
+RandomForestClassifier(max_depth=10, min_samples_leaf=2, n_estimators=400) + d2vdm100
+Mean accuracy: 0.789
+TP: 2007 | FN: 516
+FP: 539 | TN: 1938
+RandomForestClassifier(max_depth=10, min_samples_leaf=2, n_estimators=800) + d2vdm100
+Mean accuracy: 0.7886
+TP: 2010 | FN: 521
+FP: 536 | TN: 1933
+RandomForestClassifier(max_depth=10, min_samples_leaf=10) + d2vdm100
+Mean accuracy: 0.7766
+TP: 1974 | FN: 545
+FP: 572 | TN: 1909
+RandomForestClassifier(max_depth=10, min_samples_leaf=10, n_estimators=400) + d2vdm100
+Mean accuracy: 0.7838
+TP: 2002 | FN: 537
+FP: 544 | TN: 1917
+RandomForestClassifier(max_depth=10, min_samples_leaf=10, n_estimators=800) + d2vdm100
+Mean accuracy: 0.7856
+TP: 2002 | FN: 528
+FP: 544 | TN: 1926
+RandomForestClassifier(max_depth=10, min_samples_leaf=30) + d2vdm100
+Mean accuracy: 0.7746
+TP: 1984 | FN: 565
+FP: 562 | TN: 1889
+RandomForestClassifier(max_depth=10, min_samples_leaf=30, n_estimators=400) + d2vdm100
+Mean accuracy: 0.7768
+TP: 1981 | FN: 551
+FP: 565 | TN: 1903
+RandomForestClassifier(max_depth=10, min_samples_leaf=30, n_estimators=800) + d2vdm100
+Mean accuracy: 0.7746
+TP: 1970 | FN: 551
+FP: 576 | TN: 1903
+RandomForestClassifier(max_depth=15, min_samples_leaf=2) + d2vdm100
+Mean accuracy: 0.7756
+TP: 2000 | FN: 576
+FP: 546 | TN: 1878
+RandomForestClassifier(max_depth=15, min_samples_leaf=10, n_estimators=400) + d2vdm100
+Mean accuracy: 0.7892
+TP: 2010 | FN: 518
+FP: 536 | TN: 1936
+RandomForestClassifier(max_depth=15, min_samples_leaf=30, n_estimators=800) + d2vdm100
+Mean accuracy: 0.776
+TP: 1969 | FN: 543
+FP: 577 | TN: 1911
+RandomForestClassifier(max_depth=20, min_samples_leaf=2) + d2vdm100
+Mean accuracy: 0.7784
+TP: 1997 | FN: 559
+FP: 549 | TN: 1895
+RandomForestClassifier(max_depth=20, min_samples_leaf=10, n_estimators=400) + d2vdm100
+Mean accuracy: 0.7876
+TP: 1999 | FN: 515
+FP: 547 | TN: 1939
+RandomForestClassifier(max_depth=20, min_samples_leaf=30, n_estimators=800) + d2vdm100
+Mean accuracy: 0.7764
+TP: 1970 | FN: 542
+FP: 576 | TN: 1912
+
+Random Forest + PV-DBOW (100 dims):
+RandomForestClassifier(max_depth=10, min_samples_leaf=2) + d2vdbow100
+Mean accuracy: 0.79
+TP: 2176 | FN: 680
+FP: 370 | TN: 1774
+RandomForestClassifier(max_depth=10, min_samples_leaf=2, n_estimators=400) + d2vdbow100
+Mean accuracy: 0.8016
+TP: 2158 | FN: 604
+FP: 388 | TN: 1850
+RandomForestClassifier(max_depth=10, min_samples_leaf=2, n_estimators=800) + d2vdbow100
+Mean accuracy: 0.7992
+TP: 2155 | FN: 613
+FP: 391 | TN: 1841
+RandomForestClassifier(max_depth=10, min_samples_leaf=10) + d2vdbow100
+Mean accuracy: 0.797
+TP: 2145 | FN: 614
+FP: 401 | TN: 1840
+RandomForestClassifier(max_depth=10, min_samples_leaf=10, n_estimators=400) + d2vdbow100
+Mean accuracy: 0.8034
+TP: 2159 | FN: 596
+FP: 387 | TN: 1858
+RandomForestClassifier(max_depth=10, min_samples_leaf=10, n_estimators=800) + d2vdbow100
+Mean accuracy: 0.8062
+TP: 2160 | FN: 583
+FP: 386 | TN: 1871
+RandomForestClassifier(max_depth=10, min_samples_leaf=30) + d2vdbow100
+Mean accuracy: 0.798
+TP: 2100 | FN: 564
+FP: 446 | TN: 1890
+RandomForestClassifier(max_depth=10, min_samples_leaf=30, n_estimators=400) + d2vdbow100
+Mean accuracy: 0.7978
+TP: 2150 | FN: 615
+FP: 396 | TN: 1839
+RandomForestClassifier(max_depth=10, min_samples_leaf=30, n_estimators=800) + d2vdbow100
+Mean accuracy: 0.7968
+TP: 2147 | FN: 617
+FP: 399 | TN: 1837
+RandomForestClassifier(max_depth=15, min_samples_leaf=2) + d2vdbow100
+Mean accuracy: 0.7988
+TP: 2132 | FN: 592
+FP: 414 | TN: 1862
+RandomForestClassifier(max_depth=15, min_samples_leaf=10, n_estimators=400) + d2vdbow100
+Mean accuracy: 0.806
+TP: 2155 | FN: 579
+FP: 391 | TN: 1875
+RandomForestClassifier(max_depth=15, min_samples_leaf=30, n_estimators=800) + d2vdbow100
+Mean accuracy: 0.8004
+TP: 2157 | FN: 609
+FP: 389 | TN: 1845
+RandomForestClassifier(max_depth=20, min_samples_leaf=2) + d2vdbow100
+Mean accuracy: 0.797
+TP: 2112 | FN: 581
+FP: 434 | TN: 1873
+RandomForestClassifier(max_depth=20, min_samples_leaf=10, n_estimators=400) + d2vdbow100
+Mean accuracy: 0.806
+TP: 2159 | FN: 583
+FP: 387 | TN: 1871
+RandomForestClassifier(max_depth=20, min_samples_leaf=30, n_estimators=800) + d2vdbow100
+Mean accuracy: 0.8002
+TP: 2157 | FN: 610
+FP: 389 | TN: 1844
+
+Random Forest + Word2Vec:
+RandomForestClassifier(max_depth=10, min_samples_leaf=2) + w2vavg
+Mean accuracy: 0.7446
+TP: 1912 | FN: 643
+FP: 634 | TN: 1811
+RandomForestClassifier(max_depth=10, min_samples_leaf=2, n_estimators=400) + w2vavg
+Mean accuracy: 0.7466
+TP: 1911 | FN: 632
+FP: 635 | TN: 1822
+RandomForestClassifier(max_depth=10, min_samples_leaf=2, n_estimators=800) + w2vavg
+Mean accuracy: 0.7454
+TP: 1908 | FN: 635
+FP: 638 | TN: 1819
+RandomForestClassifier(max_depth=10, min_samples_leaf=10) + w2vavg
+Mean accuracy: 0.7462
+TP: 1902 | FN: 625
+FP: 644 | TN: 1829
+RandomForestClassifier(max_depth=10, min_samples_leaf=10, n_estimators=400) + w2vavg
+Mean accuracy: 0.7458
+TP: 1905 | FN: 630
+FP: 641 | TN: 1824
+RandomForestClassifier(max_depth=10, min_samples_leaf=10, n_estimators=800) + w2vavg
+Mean accuracy: 0.7456
+TP: 1915 | FN: 641
+FP: 631 | TN: 1813
+RandomForestClassifier(max_depth=10, min_samples_leaf=30) + w2vavg
+Mean accuracy: 0.743
+TP: 1899 | FN: 638
+FP: 647 | TN: 1816
+RandomForestClassifier(max_depth=10, min_samples_leaf=30, n_estimators=400) + w2vavg
+Mean accuracy: 0.744
+TP: 1905 | FN: 639
+FP: 641 | TN: 1815
+RandomForestClassifier(max_depth=10, min_samples_leaf=30, n_estimators=800) + w2vavg
+Mean accuracy: 0.7438
+TP: 1908 | FN: 643
+FP: 638 | TN: 1811
+RandomForestClassifier(max_depth=15, min_samples_leaf=2) + w2vavg
+Mean accuracy: 0.745
+TP: 1897 | FN: 626
+FP: 649 | TN: 1828
+RandomForestClassifier(max_depth=15, min_samples_leaf=10, n_estimators=400) + w2vavg
+Mean accuracy: 0.7478
+TP: 1917 | FN: 632
+FP: 629 | TN: 1822
+RandomForestClassifier(max_depth=15, min_samples_leaf=30, n_estimators=800) + w2vavg
+Mean accuracy: 0.7436
+TP: 1903 | FN: 639
+FP: 643 | TN: 1815
+RandomForestClassifier(max_depth=20, min_samples_leaf=2) + w2vavg
+Mean accuracy: 0.742
+TP: 1886 | FN: 630
+FP: 660 | TN: 1824
+RandomForestClassifier(max_depth=20, min_samples_leaf=10, n_estimators=400) + w2vavg
+Mean accuracy: 0.7472
+TP: 1911 | FN: 629
+FP: 635 | TN: 1825
+RandomForestClassifier(max_depth=20, min_samples_leaf=30, n_estimators=800) + w2vavg
+Mean accuracy: 0.7428
+TP: 1900 | FN: 640
+FP: 646 | TN: 1814
+
+Random Forest + tf-idf:
+RandomForestClassifier(max_depth=15, min_samples_leaf=2, n_estimators=400) + tfidf
+Mean accuracy: 0.8388
+TP: 2043 | FN: 303
+FP: 503 | TN: 2151
+RandomForestClassifier(max_depth=15, min_samples_leaf=2, n_estimators=800) + tfidf
+Mean accuracy: 0.8416
+TP: 2047 | FN: 293
+FP: 499 | TN: 2161
+RandomForestClassifier(max_depth=20, min_samples_leaf=2, n_estimators=400) + tfidf
+Mean accuracy: 0.8404
+TP: 2057 | FN: 309
+FP: 489 | TN: 2145
+RandomForestClassifier(max_depth=20, min_samples_leaf=2, n_estimators=800) + tfidf
+Mean accuracy: 0.8412
+TP: 2056 | FN: 304
+FP: 490 | TN: 2150
+RandomForestClassifier(max_depth=15, min_samples_leaf=10) + tfidf
+Mean accuracy: 0.8276
+TP: 1984 | FN: 300
+FP: 562 | TN: 2154
+RandomForestClassifier(max_depth=15, min_samples_leaf=10, n_estimators=800) + tfidf
+Mean accuracy: 0.8372
+TP: 2019 | FN: 287
+FP: 527 | TN: 2167
+RandomForestClassifier(max_depth=20, min_samples_leaf=10) + tfidf
+Mean accuracy: 0.83
+TP: 2000 | FN: 304
+FP: 546 | TN: 2150
+RandomForestClassifier(max_depth=20, min_samples_leaf=10, n_estimators=800) + tfidf
+Mean accuracy: 0.8398
+TP: 2045 | FN: 300
+FP: 501 | TN: 2154
+RandomForestClassifier(max_depth=25, min_samples_leaf=10) + tfidf
+Mean accuracy: 0.8382
+TP: 2031 | FN: 294
+FP: 515 | TN: 2160
+RandomForestClassifier(max_depth=25, min_samples_leaf=10, n_estimators=400) + tfidf
+Mean accuracy: 0.8396
+TP: 2050 | FN: 306
+FP: 496 | TN: 2148
+RandomForestClassifier(max_depth=25, min_samples_leaf=10, n_estimators=800) + tfidf
+Mean accuracy: 0.841
+TP: 2052 | FN: 301
+FP: 494 | TN: 2153
+
+Random Forest + PV-DM:
+RandomForestClassifier(max_depth=15, min_samples_leaf=10) + d2vdm
+Mean accuracy: 0.795
+TP: 2062 | FN: 541
+FP: 484 | TN: 1913
+RandomForestClassifier(max_depth=15, min_samples_leaf=10, n_estimators=800) + d2vdm
+Mean accuracy: 0.7988
+TP: 2076 | FN: 536
+FP: 470 | TN: 1918
+RandomForestClassifier(max_depth=20, min_samples_leaf=10) + d2vdm
+Mean accuracy: 0.7922
+TP: 2045 | FN: 538
+FP: 501 | TN: 1916
+RandomForestClassifier(max_depth=20, min_samples_leaf=10, n_estimators=800) + d2vdm
+Mean accuracy: 0.7984
+TP: 2077 | FN: 539
+FP: 469 | TN: 1915
+RandomForestClassifier(max_depth=25, min_samples_leaf=10) + d2vdm
+Mean accuracy: 0.7922
+TP: 2045 | FN: 538
+FP: 501 | TN: 1916
+RandomForestClassifier(max_depth=25, min_samples_leaf=10, n_estimators=400) + d2vdm
+Mean accuracy: 0.7978
+TP: 2073 | FN: 538
+FP: 473 | TN: 1916
+RandomForestClassifier(max_depth=25, min_samples_leaf=10, n_estimators=800) + d2vdm
+Mean accuracy: 0.7988
+TP: 2077 | FN: 537
+FP: 469 | TN: 1917
+
+Random Forest + PV-DBOW:
+RandomForestClassifier(max_depth=15, min_samples_leaf=10) + d2vdbow
+Mean accuracy: 0.8094
+TP: 2214 | FN: 621
+FP: 332 | TN: 1833
+RandomForestClassifier(max_depth=15, min_samples_leaf=10, n_estimators=800) + d2vdbow
+Mean accuracy: 0.808
+TP: 2219 | FN: 633
+FP: 327 | TN: 1821
+RandomForestClassifier(max_depth=20, min_samples_leaf=10) + d2vdbow
+Mean accuracy: 0.8082
+TP: 2209 | FN: 622
+FP: 337 | TN: 1832
+RandomForestClassifier(max_depth=20, min_samples_leaf=10, n_estimators=800) + d2vdbow
+Mean accuracy: 0.8086
+TP: 2222 | FN: 633
+FP: 324 | TN: 1821
+RandomForestClassifier(max_depth=25, min_samples_leaf=10) + d2vdbow
+Mean accuracy: 0.8082
+TP: 2209 | FN: 622
+FP: 337 | TN: 1832
+RandomForestClassifier(max_depth=25, min_samples_leaf=10, n_estimators=400) + d2vdbow
+Mean accuracy: 0.8096
+TP: 2218 | FN: 624
+FP: 328 | TN: 1830
+RandomForestClassifier(max_depth=25, min_samples_leaf=10, n_estimators=800) + d2vdbow
+Mean accuracy: 0.8088
+TP: 2220 | FN: 630
+FP: 326 | TN: 1824
+
+Random Forest + PV-DM (100 dims):
+RandomForestClassifier(max_depth=15, min_samples_leaf=10) + d2vdm100
+Mean accuracy: 0.7838
+TP: 1982 | FN: 517
+FP: 564 | TN: 1937
+RandomForestClassifier(max_depth=15, min_samples_leaf=10, n_estimators=800) + d2vdm100
+Mean accuracy: 0.7886
+TP: 2004 | FN: 515
+FP: 542 | TN: 1939
+RandomForestClassifier(max_depth=20, min_samples_leaf=10) + d2vdm100
+Mean accuracy: 0.7824
+TP: 1985 | FN: 527
+FP: 561 | TN: 1927
+RandomForestClassifier(max_depth=20, min_samples_leaf=10, n_estimators=800) + d2vdm100
+Mean accuracy: 0.787
+TP: 1998 | FN: 517
+FP: 548 | TN: 1937
+RandomForestClassifier(max_depth=25, min_samples_leaf=10) + d2vdm100
+Mean accuracy: 0.7824
+TP: 1985 | FN: 527
+FP: 561 | TN: 1927
+RandomForestClassifier(max_depth=25, min_samples_leaf=10, n_estimators=400) + d2vdm100
+Mean accuracy: 0.7876
+TP: 1999 | FN: 515
+FP: 547 | TN: 1939
+RandomForestClassifier(max_depth=25, min_samples_leaf=10, n_estimators=800) + d2vdm100
+Mean accuracy: 0.7872
+TP: 1997 | FN: 515
+FP: 549 | TN: 1939
+
+Random Forest + PV-DBOW (100 dims):
+RandomForestClassifier(max_depth=15, min_samples_leaf=10) + d2vdbow100
+Mean accuracy: 0.8014
+TP: 2117 | FN: 564
+FP: 429 | TN: 1890
+RandomForestClassifier(max_depth=15, min_samples_leaf=10, n_estimators=800) + d2vdbow100
+Mean accuracy: 0.8068
+TP: 2159 | FN: 579
+FP: 387 | TN: 1875
+RandomForestClassifier(max_depth=20, min_samples_leaf=10) + d2vdbow100
+Mean accuracy: 0.7992
+TP: 2117 | FN: 575
+FP: 429 | TN: 1879
+RandomForestClassifier(max_depth=20, min_samples_leaf=10, n_estimators=800) + d2vdbow100
+Mean accuracy: 0.8062
+TP: 2156 | FN: 579
+FP: 390 | TN: 1875
+RandomForestClassifier(max_depth=25, min_samples_leaf=10) + d2vdbow100
+Mean accuracy: 0.7992
+TP: 2117 | FN: 575
+FP: 429 | TN: 1879
+RandomForestClassifier(max_depth=25, min_samples_leaf=10, n_estimators=400) + d2vdbow100
+Mean accuracy: 0.8058
+TP: 2158 | FN: 583
+FP: 388 | TN: 1871
+RandomForestClassifier(max_depth=25, min_samples_leaf=10, n_estimators=800) + d2vdbow100
+Mean accuracy: 0.807
+TP: 2157 | FN: 576
+FP: 389 | TN: 1878
+
+Random Forest + Word2Vec:
+RandomForestClassifier(max_depth=15, min_samples_leaf=10) + w2vavg
+Mean accuracy: 0.7448
+TP: 1897 | FN: 627
+FP: 649 | TN: 1827
+RandomForestClassifier(max_depth=15, min_samples_leaf=10, n_estimators=800) + w2vavg
+Mean accuracy: 0.749
+TP: 1919 | FN: 628
+FP: 627 | TN: 1826
+RandomForestClassifier(max_depth=20, min_samples_leaf=10) + w2vavg
+Mean accuracy: 0.7454
+TP: 1894 | FN: 621
+FP: 652 | TN: 1833
+RandomForestClassifier(max_depth=20, min_samples_leaf=10, n_estimators=800) + w2vavg
+Mean accuracy: 0.7484
+TP: 1913 | FN: 625
+FP: 633 | TN: 1829
+RandomForestClassifier(max_depth=25, min_samples_leaf=10) + w2vavg
+Mean accuracy: 0.7454
+TP: 1894 | FN: 621
+FP: 652 | TN: 1833
+RandomForestClassifier(max_depth=25, min_samples_leaf=10, n_estimators=400) + w2vavg
+Mean accuracy: 0.7476
+TP: 1912 | FN: 628
+FP: 634 | TN: 1826
+RandomForestClassifier(max_depth=25, min_samples_leaf=10, n_estimators=800) + w2vavg
+Mean accuracy: 0.7484
+TP: 1914 | FN: 626
+FP: 632 | TN: 1828
+
+Extra Trees + tf-idf
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=2) + tfidf
+Mean accuracy: 0.817
+TP: 1945 | FN: 314
+FP: 601 | TN: 2140
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=2, n_estimators=400) + tfidf
+Mean accuracy: 0.8476
+TP: 2070 | FN: 286
+FP: 476 | TN: 2168
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=2, n_estimators=800) + tfidf
+Mean accuracy: 0.851
+TP: 2059 | FN: 258
+FP: 487 | TN: 2196
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=10) + tfidf
+Mean accuracy: 0.8144
+TP: 1934 | FN: 316
+FP: 612 | TN: 2138
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=10, n_estimators=400) + tfidf
+Mean accuracy: 0.8448
+TP: 2055 | FN: 285
+FP: 491 | TN: 2169
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=10, n_estimators=800) + tfidf
+Mean accuracy: 0.8464
+TP: 2038 | FN: 260
+FP: 508 | TN: 2194
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=30) + tfidf
+Mean accuracy: 0.8212
+TP: 1974 | FN: 322
+FP: 572 | TN: 2132
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=30, n_estimators=400) + tfidf
+Mean accuracy: 0.8414
+TP: 2053 | FN: 300
+FP: 493 | TN: 2154
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=30, n_estimators=800) + tfidf
+Mean accuracy: 0.845
+TP: 2052 | FN: 281
+FP: 494 | TN: 2173
+
+Extra Trees + PV-DM
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=2) + d2vdm
+Mean accuracy: 0.801
+TP: 2129 | FN: 578
+FP: 417 | TN: 1876
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=2, n_estimators=400) + d2vdm
+Mean accuracy: 0.8116
+TP: 2154 | FN: 550
+FP: 392 | TN: 1904
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=2, n_estimators=800) + d2vdm
+Mean accuracy: 0.8076
+TP: 2147 | FN: 563
+FP: 399 | TN: 1891
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=10) + d2vdm
+Mean accuracy: 0.8016
+TP: 2111 | FN: 557
+FP: 435 | TN: 1897
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=10, n_estimators=400) + d2vdm
+Mean accuracy: 0.812
+TP: 2139 | FN: 533
+FP: 407 | TN: 1921
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=10, n_estimators=800) + d2vdm
+Mean accuracy: 0.8104
+TP: 2139 | FN: 541
+FP: 407 | TN: 1913
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=30) + d2vdm
+Mean accuracy: 0.8014
+TP: 2134 | FN: 581
+FP: 412 | TN: 1873
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=30, n_estimators=400) + d2vdm
+Mean accuracy: 0.8112
+TP: 2141 | FN: 539
+FP: 405 | TN: 1915
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=30, n_estimators=800) + d2vdm
+Mean accuracy: 0.8098
+TP: 2135 | FN: 540
+FP: 411 | TN: 1914
+
+Extra Trees + PV-DBOW
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=2) + d2vdbow
+Mean accuracy: 0.8154
+TP: 2250 | FN: 627
+FP: 296 | TN: 1827
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=2, n_estimators=400) + d2vdbow
+Mean accuracy: 0.8186
+TP: 2267 | FN: 628
+FP: 279 | TN: 1826
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=2, n_estimators=800) + d2vdbow
+Mean accuracy: 0.8214
+TP: 2274 | FN: 621
+FP: 272 | TN: 1833
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=10) + d2vdbow
+Mean accuracy: 0.8196
+TP: 2256 | FN: 612
+FP: 290 | TN: 1842
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=10, n_estimators=400) + d2vdbow
+Mean accuracy: 0.8214
+TP: 2253 | FN: 600
+FP: 293 | TN: 1854
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=10, n_estimators=800) + d2vdbow
+Mean accuracy: 0.8204
+TP: 2267 | FN: 619
+FP: 279 | TN: 1835
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=30) + d2vdbow
+Mean accuracy: 0.8098
+TP: 2212 | FN: 617
+FP: 334 | TN: 1837
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=30, n_estimators=400) + d2vdbow
+Mean accuracy: 0.8176
+TP: 2250 | FN: 616
+FP: 296 | TN: 1838
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=30, n_estimators=800) + d2vdbow
+Mean accuracy: 0.82
+TP: 2239 | FN: 593
+FP: 307 | TN: 1861
+
+Extra Trees + PV-DM (100 dims)
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=2) + d2vdm100
+Mean accuracy: 0.8018
+TP: 2084 | FN: 529
+FP: 462 | TN: 1925
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=2, n_estimators=400) + d2vdm100
+Mean accuracy: 0.8078
+TP: 2075 | FN: 490
+FP: 471 | TN: 1964
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=2, n_estimators=800) + d2vdm100
+Mean accuracy: 0.8042
+TP: 2062 | FN: 495
+FP: 484 | TN: 1959
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=10) + d2vdm100
+Mean accuracy: 0.8048
+TP: 2077 | FN: 507
+FP: 469 | TN: 1947
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=10, n_estimators=400) + d2vdm100
+Mean accuracy: 0.8066
+TP: 2082 | FN: 503
+FP: 464 | TN: 1951
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=10, n_estimators=800) + d2vdm100
+Mean accuracy: 0.807
+TP: 2080 | FN: 499
+FP: 466 | TN: 1955
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=30) + d2vdm100
+Mean accuracy: 0.7986
+TP: 2061 | FN: 522
+FP: 485 | TN: 1932
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=30, n_estimators=400) + d2vdm100
+Mean accuracy: 0.807
+TP: 2082 | FN: 501
+FP: 464 | TN: 1953
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=30, n_estimators=800) + d2vdm100
+Mean accuracy: 0.8042
+TP: 2063 | FN: 496
+FP: 483 | TN: 1958
+
+Extra Trees + PV-DBOW (100 dims):
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=2) + d2vdbow100
+Mean accuracy: 0.8124
+TP: 2177 | FN: 569
+FP: 369 | TN: 1885
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=2, n_estimators=400) + d2vdbow100
+Mean accuracy: 0.8214
+TP: 2250 | FN: 597
+FP: 296 | TN: 1857
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=2, n_estimators=800) + d2vdbow100
+Mean accuracy: 0.823
+TP: 2251 | FN: 590
+FP: 295 | TN: 1864
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=10) + d2vdbow100
+Mean accuracy: 0.8152
+TP: 2129 | FN: 507
+FP: 417 | TN: 1947
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=10, n_estimators=400) + d2vdbow100
+Mean accuracy: 0.8204
+TP: 2250 | FN: 602
+FP: 296 | TN: 1852
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=10, n_estimators=800) + d2vdbow100
+Mean accuracy: 0.8202
+TP: 2254 | FN: 607
+FP: 292 | TN: 1847
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=30) + d2vdbow100
+Mean accuracy: 0.8194
+TP: 2184 | FN: 541
+FP: 362 | TN: 1913
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=30, n_estimators=400) + d2vdbow100
+Mean accuracy: 0.8212
+TP: 2270 | FN: 618
+FP: 276 | TN: 1836
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=30, n_estimators=800) + d2vdbow100
+Mean accuracy: 0.8208
+TP: 2254 | FN: 604
+FP: 292 | TN: 1850
+
+Extra Trees + Word2Vec:
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=2) + w2vavg
+Mean accuracy: 0.7298
+TP: 1910 | FN: 715
+FP: 636 | TN: 1739
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=2, n_estimators=400) + w2vavg
+Mean accuracy: 0.7302
+TP: 1911 | FN: 714
+FP: 635 | TN: 1740
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=2, n_estimators=800) + w2vavg
+Mean accuracy: 0.7304
+TP: 1911 | FN: 713
+FP: 635 | TN: 1741
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=10) + w2vavg
+Mean accuracy: 0.726
+TP: 1891 | FN: 715
+FP: 655 | TN: 1739
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=10, n_estimators=400) + w2vavg
+Mean accuracy: 0.7284
+TP: 1900 | FN: 712
+FP: 646 | TN: 1742
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=10, n_estimators=800) + w2vavg
+Mean accuracy: 0.7312
+TP: 1906 | FN: 704
+FP: 640 | TN: 1750
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=30) + w2vavg
+Mean accuracy: 0.729
+TP: 1904 | FN: 713
+FP: 642 | TN: 1741
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=30, n_estimators=400) + w2vavg
+Mean accuracy: 0.7274
+TP: 1906 | FN: 723
+FP: 640 | TN: 1731
+ExtraTreesClassifier(max_depth=10, min_samples_leaf=30, n_estimators=800) + w2vavg
+Mean accuracy: 0.7286
+TP: 1903 | FN: 714
+FP: 643 | TN: 1740
+
+
+SVM + tf-idf:
+SVC(kernel='linear', max_iter=1000) + tfidf
+Mean accuracy: 0.833
+TP: 2126 | FN: 415
+FP: 420 | TN: 2039
+SVC(max_iter=1000) + tfidf
+Mean accuracy: 0.8292
+TP: 2146 | FN: 454
+FP: 400 | TN: 2000
+SVC(degree=2, kernel='poly', max_iter=1000) + tfidf
+Mean accuracy: 0.799
+TP: 2091 | FN: 550
+FP: 455 | TN: 1904
+SVC(kernel='poly', max_iter=1000) + tfidf
+Mean accuracy: 0.7282
+TP: 1517 | FN: 330
+FP: 1029 | TN: 2124
+SVC(kernel='sigmoid', max_iter=1000) + tfidf
+Mean accuracy: 0.8304
+TP: 2106 | FN: 408
+FP: 440 | TN: 2046
+
+SVM + PV-DM:
+SVC(kernel='linear') + d2vdm
+Mean accuracy: 0.8284
+TP: 2220 | FN: 532
+FP: 326 | TN: 1922
+SVC(random_state=1) + d2vdm
+Mean accuracy: 0.8292
+TP: 2181 | FN: 489
+FP: 365 | TN: 1965
+SVC(degree=2, kernel='poly') + d2vdm
+Mean accuracy: 0.8028
+TP: 2114 | FN: 554
+FP: 432 | TN: 1900
+SVC(kernel='poly') + d2vdm
+Mean accuracy: 0.821
+TP: 2205 | FN: 554
+FP: 341 | TN: 1900
+SVC(kernel='sigmoid') + d2vdm
+Mean accuracy: 0.8248
+TP: 2216 | FN: 546
+FP: 330 | TN: 1908
+SVC(degree=4, kernel='poly') + d2vdm
+Mean accuracy: 0.7948
+TP: 2323 | FN: 803
+FP: 223 | TN: 1651
+
+SVM + PV-DBOW:
+SVC(kernel='linear') + d2vdbow
+Mean accuracy: 0.8508
+TP: 2193 | FN: 393
+FP: 353 | TN: 2061
+SVC(random_state=1) + d2vdbow
+Mean accuracy: 0.853
+TP: 2232 | FN: 421
+FP: 314 | TN: 2033
+SVC(degree=2, kernel='poly') + d2vdbow
+Mean accuracy: 0.8484
+TP: 2178 | FN: 390
+FP: 368 | TN: 2064
+SVC(kernel='poly') + d2vdbow
+Mean accuracy: 0.8284
+TP: 2312 | FN: 624
+FP: 234 | TN: 1830
+SVC(kernel='sigmoid') + d2vdbow
+Mean accuracy: 0.847
+TP: 2214 | FN: 433
+FP: 332 | TN: 2021
+SVC(degree=4, kernel='poly') + d2vdbow
+Mean accuracy: 0.7412
+TP: 2435 | FN: 1183
+FP: 111 | TN: 1271
+
+SVM + Word2Vec:
+SVC(kernel='linear') + w2vavg
+Mean accuracy: 0.7708
+TP: 1978 | FN: 578
+FP: 568 | TN: 1876
+SVC(random_state=1) + w2vavg
+Mean accuracy: 0.762
+TP: 1951 | FN: 595
+FP: 595 | TN: 1859
+SVC(degree=2, kernel='poly') + w2vavg
+Mean accuracy: 0.762
+TP: 1931 | FN: 575
+FP: 615 | TN: 1879
+SVC(kernel='poly') + w2vavg
+Mean accuracy: 0.7648
+TP: 1930 | FN: 560
+FP: 616 | TN: 1894
+SVC(kernel='sigmoid') + w2vavg
+Mean accuracy: 0.643
+TP: 1692 | FN: 931
+FP: 854 | TN: 1523
+
