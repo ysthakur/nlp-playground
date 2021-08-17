@@ -1,0 +1,36 @@
+tf-idf:
+
+Mean accuracy: 0.7834
+TP: 1957 | FN: 494
+FP: 589 | TN: 1960
+
+d2vdm50:
+
+Mean accuracy: 0.8308
+TP: 2244 | FN: 544
+FP: 302 | TN: 1910
+
+d2vdbow50:
+
+Mean accuracy: 0.852
+TP: 2232 | FN: 426
+FP: 314 | TN: 2028
+
+d2vdm100:
+
+Mean accuracy: 0.8282
+TP: 2214 | FN: 527
+FP: 332 | TN: 1927
+
+d2vdbow100:
+
+Mean accuracy: 0.8574
+TP: 2220 | FN: 387
+FP: 326 | TN: 2067
+
+w2vavg:
+
+Mean accuracy: 0.7664
+TP: 1979 | FN: 601
+FP: 567 | TN: 1853
+
