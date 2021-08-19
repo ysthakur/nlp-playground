@@ -1,371 +1,431 @@
 tfidf:
-max_depth=10, min_samples_leaf=2
+max_depth=10, min_samples_leaf=2, n_estimators=100
 Mean accuracy: 0.817
 TP: 1945 | FN: 314
 FP: 601 | TN: 2140
 max_depth=10, min_samples_leaf=2, n_estimators=400, 
+                     random_state=1
 Mean accuracy: 0.8476
 TP: 2070 | FN: 286
 FP: 476 | TN: 2168
 max_depth=10, min_samples_leaf=2, n_estimators=800, 
+                     random_state=1
 Mean accuracy: 0.851
 TP: 2059 | FN: 258
 FP: 487 | TN: 2196
-max_depth=10, min_samples_leaf=5
+max_depth=10, min_samples_leaf=5, n_estimators=100
 Mean accuracy: 0.8186
 TP: 1948 | FN: 309
 FP: 598 | TN: 2145
 max_depth=10, min_samples_leaf=5, n_estimators=400, 
+                     random_state=1
 Mean accuracy: 0.8442
 TP: 2047 | FN: 280
 FP: 499 | TN: 2174
 max_depth=10, min_samples_leaf=5, n_estimators=800, 
+                     random_state=1
 Mean accuracy: 0.848
 TP: 2043 | FN: 257
 FP: 503 | TN: 2197
-max_depth=10, min_samples_leaf=10
+max_depth=10, min_samples_leaf=10, n_estimators=100
 Mean accuracy: 0.8144
 TP: 1934 | FN: 316
 FP: 612 | TN: 2138
 max_depth=10, min_samples_leaf=10, n_estimators=400, 
+                     random_state=1
 Mean accuracy: 0.8448
 TP: 2055 | FN: 285
 FP: 491 | TN: 2169
 max_depth=10, min_samples_leaf=10, n_estimators=800, 
+                     random_state=1
 Mean accuracy: 0.8464
 TP: 2038 | FN: 260
 FP: 508 | TN: 2194
-max_depth=10, min_samples_leaf=20
+max_depth=10, min_samples_leaf=20, n_estimators=100
 Mean accuracy: 0.8226
 TP: 1974 | FN: 315
 FP: 572 | TN: 2139
 max_depth=10, min_samples_leaf=20, n_estimators=400, 
+                     random_state=1
 Mean accuracy: 0.8416
 TP: 2038 | FN: 284
 FP: 508 | TN: 2170
 max_depth=10, min_samples_leaf=20, n_estimators=800, 
+                     random_state=1
 Mean accuracy: 0.8488
 TP: 2058 | FN: 268
 FP: 488 | TN: 2186
-max_depth=10, min_samples_leaf=30
+max_depth=10, min_samples_leaf=30, n_estimators=100
 Mean accuracy: 0.8212
 TP: 1974 | FN: 322
 FP: 572 | TN: 2132
 max_depth=10, min_samples_leaf=30, n_estimators=400, 
+                     random_state=1
 Mean accuracy: 0.8414
 TP: 2053 | FN: 300
 FP: 493 | TN: 2154
 max_depth=10, min_samples_leaf=30, n_estimators=800, 
+                     random_state=1
 Mean accuracy: 0.845
 TP: 2052 | FN: 281
 FP: 494 | TN: 2173
 
 d2vdm:
-max_depth=10, min_samples_leaf=2
-Mean accuracy: 0.8026
-TP: 2139 | FN: 580
-FP: 407 | TN: 1874
+max_depth=10, min_samples_leaf=2, n_estimators=100
+Mean accuracy: 0.7988
+TP: 2137 | FN: 597
+FP: 409 | TN: 1857
 max_depth=10, min_samples_leaf=2, n_estimators=400, 
-Mean accuracy: 0.8064
-TP: 2139 | FN: 561
-FP: 407 | TN: 1893
+                     random_state=1
+Mean accuracy: 0.811
+TP: 2154 | FN: 553
+FP: 392 | TN: 1901
 max_depth=10, min_samples_leaf=2, n_estimators=800, 
-Mean accuracy: 0.8098
-TP: 2144 | FN: 549
-FP: 402 | TN: 1905
-max_depth=10, min_samples_leaf=5
-Mean accuracy: 0.8046
-TP: 2128 | FN: 559
-FP: 418 | TN: 1895
-max_depth=10, min_samples_leaf=5, n_estimators=400, 
-Mean accuracy: 0.8076
-TP: 2131 | FN: 547
-FP: 415 | TN: 1907
-max_depth=10, min_samples_leaf=5, n_estimators=800, 
-Mean accuracy: 0.8084
-TP: 2141 | FN: 553
-FP: 405 | TN: 1901
-max_depth=10, min_samples_leaf=10
-Mean accuracy: 0.8058
-TP: 2137 | FN: 562
-FP: 409 | TN: 1892
-max_depth=10, min_samples_leaf=10, n_estimators=400, 
-Mean accuracy: 0.8094
-TP: 2143 | FN: 550
-FP: 403 | TN: 1904
-max_depth=10, min_samples_leaf=10, n_estimators=800, 
-Mean accuracy: 0.808
-TP: 2137 | FN: 551
-FP: 409 | TN: 1903
-max_depth=10, min_samples_leaf=20
-Mean accuracy: 0.803
-TP: 2130 | FN: 569
-FP: 416 | TN: 1885
-max_depth=10, min_samples_leaf=20, n_estimators=400, 
-Mean accuracy: 0.8126
-TP: 2144 | FN: 535
-FP: 402 | TN: 1919
-max_depth=10, min_samples_leaf=20, n_estimators=800, 
+                     random_state=1
 Mean accuracy: 0.8108
-TP: 2147 | FN: 547
-FP: 399 | TN: 1907
-max_depth=10, min_samples_leaf=30
-Mean accuracy: 0.806
-TP: 2140 | FN: 564
-FP: 406 | TN: 1890
-max_depth=10, min_samples_leaf=30, n_estimators=400, 
-Mean accuracy: 0.8092
-TP: 2141 | FN: 549
-FP: 405 | TN: 1905
-max_depth=10, min_samples_leaf=30, n_estimators=800, 
+TP: 2154 | FN: 554
+FP: 392 | TN: 1900
+max_depth=10, min_samples_leaf=5, n_estimators=100
+Mean accuracy: 0.8004
+TP: 2123 | FN: 575
+FP: 423 | TN: 1879
+max_depth=10, min_samples_leaf=5, n_estimators=400, 
+                     random_state=1
+Mean accuracy: 0.809
+TP: 2139 | FN: 548
+FP: 407 | TN: 1906
+max_depth=10, min_samples_leaf=5, n_estimators=800, 
+                     random_state=1
+Mean accuracy: 0.8122
+TP: 2144 | FN: 537
+FP: 402 | TN: 1917
+max_depth=10, min_samples_leaf=10, n_estimators=100
+Mean accuracy: 0.8066
+TP: 2133 | FN: 554
+FP: 413 | TN: 1900
+max_depth=10, min_samples_leaf=10, n_estimators=400, 
+                     random_state=1
+Mean accuracy: 0.8114
+TP: 2143 | FN: 540
+FP: 403 | TN: 1914
+max_depth=10, min_samples_leaf=10, n_estimators=800, 
+                     random_state=1
 Mean accuracy: 0.81
-TP: 2145 | FN: 549
-FP: 401 | TN: 1905
+TP: 2140 | FN: 544
+FP: 406 | TN: 1910
+max_depth=10, min_samples_leaf=20, n_estimators=100
+Mean accuracy: 0.8046
+TP: 2127 | FN: 558
+FP: 419 | TN: 1896
+max_depth=10, min_samples_leaf=20, n_estimators=400, 
+                     random_state=1
+Mean accuracy: 0.81
+TP: 2133 | FN: 537
+FP: 413 | TN: 1917
+max_depth=10, min_samples_leaf=20, n_estimators=800, 
+                     random_state=1
+Mean accuracy: 0.8124
+TP: 2146 | FN: 538
+FP: 400 | TN: 1916
+max_depth=10, min_samples_leaf=30, n_estimators=100
+Mean accuracy: 0.8014
+TP: 2135 | FN: 582
+FP: 411 | TN: 1872
+max_depth=10, min_samples_leaf=30, n_estimators=400, 
+                     random_state=1
+Mean accuracy: 0.8108
+TP: 2135 | FN: 535
+FP: 411 | TN: 1919
+max_depth=10, min_samples_leaf=30, n_estimators=800, 
+                     random_state=1
+Mean accuracy: 0.808
+TP: 2129 | FN: 543
+FP: 417 | TN: 1911
 
 d2vdbow:
-max_depth=10, min_samples_leaf=2
-Mean accuracy: 0.8118
-TP: 2265 | FN: 660
-FP: 281 | TN: 1794
+max_depth=10, min_samples_leaf=2, n_estimators=100
+Mean accuracy: 0.81
+TP: 2276 | FN: 680
+FP: 270 | TN: 1774
 max_depth=10, min_samples_leaf=2, n_estimators=400, 
-Mean accuracy: 0.821
-TP: 2277 | FN: 626
-FP: 269 | TN: 1828
+                     random_state=1
+Mean accuracy: 0.816
+TP: 2282 | FN: 656
+FP: 264 | TN: 1798
 max_depth=10, min_samples_leaf=2, n_estimators=800, 
-Mean accuracy: 0.8224
-TP: 2272 | FN: 614
-FP: 274 | TN: 1840
-max_depth=10, min_samples_leaf=5
-Mean accuracy: 0.8086
-TP: 2279 | FN: 690
-FP: 267 | TN: 1764
-max_depth=10, min_samples_leaf=5, n_estimators=400, 
-Mean accuracy: 0.8132
-TP: 2273 | FN: 661
-FP: 273 | TN: 1793
-max_depth=10, min_samples_leaf=5, n_estimators=800, 
-Mean accuracy: 0.822
-TP: 2275 | FN: 619
-FP: 271 | TN: 1835
-max_depth=10, min_samples_leaf=10
-Mean accuracy: 0.8178
-TP: 2266 | FN: 631
-FP: 280 | TN: 1823
-max_depth=10, min_samples_leaf=10, n_estimators=400, 
+                     random_state=1
 Mean accuracy: 0.8198
-TP: 2259 | FN: 614
-FP: 287 | TN: 1840
+TP: 2274 | FN: 629
+FP: 272 | TN: 1825
+max_depth=10, min_samples_leaf=5, n_estimators=100
+Mean accuracy: 0.8156
+TP: 2264 | FN: 640
+FP: 282 | TN: 1814
+max_depth=10, min_samples_leaf=5, n_estimators=400, 
+                     random_state=1
+Mean accuracy: 0.8134
+TP: 2272 | FN: 659
+FP: 274 | TN: 1795
+max_depth=10, min_samples_leaf=5, n_estimators=800, 
+                     random_state=1
+Mean accuracy: 0.8222
+TP: 2269 | FN: 612
+FP: 277 | TN: 1842
+max_depth=10, min_samples_leaf=10, n_estimators=100
+Mean accuracy: 0.8156
+TP: 2275 | FN: 651
+FP: 271 | TN: 1803
+max_depth=10, min_samples_leaf=10, n_estimators=400, 
+                     random_state=1
+Mean accuracy: 0.8218
+TP: 2265 | FN: 610
+FP: 281 | TN: 1844
 max_depth=10, min_samples_leaf=10, n_estimators=800, 
-Mean accuracy: 0.8212
-TP: 2273 | FN: 621
-FP: 273 | TN: 1833
-max_depth=10, min_samples_leaf=20
-Mean accuracy: 0.822
-TP: 2212 | FN: 556
-FP: 334 | TN: 1898
+                     random_state=1
+Mean accuracy: 0.8232
+TP: 2267 | FN: 605
+FP: 279 | TN: 1849
+max_depth=10, min_samples_leaf=20, n_estimators=100
+Mean accuracy: 0.818
+TP: 2220 | FN: 584
+FP: 326 | TN: 1870
 max_depth=10, min_samples_leaf=20, n_estimators=400, 
-Mean accuracy: 0.822
-TP: 2240 | FN: 584
-FP: 306 | TN: 1870
+                     random_state=1
+Mean accuracy: 0.8196
+TP: 2240 | FN: 596
+FP: 306 | TN: 1858
 max_depth=10, min_samples_leaf=20, n_estimators=800, 
-Mean accuracy: 0.8242
-TP: 2265 | FN: 598
-FP: 281 | TN: 1856
-max_depth=10, min_samples_leaf=30
-Mean accuracy: 0.8158
-TP: 2232 | FN: 607
-FP: 314 | TN: 1847
+                     random_state=1
+Mean accuracy: 0.8232
+TP: 2264 | FN: 602
+FP: 282 | TN: 1852
+max_depth=10, min_samples_leaf=30, n_estimators=100
+Mean accuracy: 0.8168
+TP: 2222 | FN: 592
+FP: 324 | TN: 1862
 max_depth=10, min_samples_leaf=30, n_estimators=400, 
-Mean accuracy: 0.821
-TP: 2246 | FN: 595
-FP: 300 | TN: 1859
+                     random_state=1
+Mean accuracy: 0.824
+TP: 2253 | FN: 587
+FP: 293 | TN: 1867
 max_depth=10, min_samples_leaf=30, n_estimators=800, 
-Mean accuracy: 0.8224
-TP: 2252 | FN: 594
-FP: 294 | TN: 1860
+                     random_state=1
+Mean accuracy: 0.8218
+TP: 2248 | FN: 593
+FP: 298 | TN: 1861
 
 d2vdm100:
-max_depth=10, min_samples_leaf=2
-Mean accuracy: 0.801
-TP: 2069 | FN: 518
-FP: 477 | TN: 1936
+max_depth=10, min_samples_leaf=2, n_estimators=100
+Mean accuracy: 0.7988
+TP: 2059 | FN: 519
+FP: 487 | TN: 1935
 max_depth=10, min_samples_leaf=2, n_estimators=400, 
-Mean accuracy: 0.8058
-TP: 2070 | FN: 495
-FP: 476 | TN: 1959
+                     random_state=1
+Mean accuracy: 0.8074
+TP: 2084 | FN: 501
+FP: 462 | TN: 1953
 max_depth=10, min_samples_leaf=2, n_estimators=800, 
-Mean accuracy: 0.8082
-TP: 2072 | FN: 485
-FP: 474 | TN: 1969
-max_depth=10, min_samples_leaf=5
-Mean accuracy: 0.8022
-TP: 2073 | FN: 516
-FP: 473 | TN: 1938
+                     random_state=1
+Mean accuracy: 0.8074
+TP: 2079 | FN: 496
+FP: 467 | TN: 1958
+max_depth=10, min_samples_leaf=5, n_estimators=100
+Mean accuracy: 0.7988
+TP: 2081 | FN: 541
+FP: 465 | TN: 1913
 max_depth=10, min_samples_leaf=5, n_estimators=400, 
+                     random_state=1
 Mean accuracy: 0.8106
-TP: 2084 | FN: 485
-FP: 462 | TN: 1969
+TP: 2089 | FN: 490
+FP: 457 | TN: 1964
 max_depth=10, min_samples_leaf=5, n_estimators=800, 
-Mean accuracy: 0.8062
-TP: 2063 | FN: 486
-FP: 483 | TN: 1968
-max_depth=10, min_samples_leaf=10
-Mean accuracy: 0.8046
-TP: 2080 | FN: 511
-FP: 466 | TN: 1943
+                     random_state=1
+Mean accuracy: 0.8074
+TP: 2074 | FN: 491
+FP: 472 | TN: 1963
+max_depth=10, min_samples_leaf=10, n_estimators=100
+Mean accuracy: 0.8018
+TP: 2071 | FN: 516
+FP: 475 | TN: 1938
 max_depth=10, min_samples_leaf=10, n_estimators=400, 
-Mean accuracy: 0.8046
-TP: 2072 | FN: 503
-FP: 474 | TN: 1951
+                     random_state=1
+Mean accuracy: 0.8056
+TP: 2077 | FN: 503
+FP: 469 | TN: 1951
 max_depth=10, min_samples_leaf=10, n_estimators=800, 
-Mean accuracy: 0.8064
-TP: 2077 | FN: 499
-FP: 469 | TN: 1955
-max_depth=10, min_samples_leaf=20
+                     random_state=1
+Mean accuracy: 0.8084
+TP: 2083 | FN: 495
+FP: 463 | TN: 1959
+max_depth=10, min_samples_leaf=20, n_estimators=100
 Mean accuracy: 0.7964
-TP: 2046 | FN: 518
-FP: 500 | TN: 1936
+TP: 2050 | FN: 522
+FP: 496 | TN: 1932
 max_depth=10, min_samples_leaf=20, n_estimators=400, 
-Mean accuracy: 0.804
-TP: 2064 | FN: 498
-FP: 482 | TN: 1956
+                     random_state=1
+Mean accuracy: 0.805
+TP: 2065 | FN: 494
+FP: 481 | TN: 1960
 max_depth=10, min_samples_leaf=20, n_estimators=800, 
-Mean accuracy: 0.8032
-TP: 2058 | FN: 496
-FP: 488 | TN: 1958
-max_depth=10, min_samples_leaf=30
-Mean accuracy: 0.7944
-TP: 2052 | FN: 534
-FP: 494 | TN: 1920
+                     random_state=1
+Mean accuracy: 0.8056
+TP: 2064 | FN: 490
+FP: 482 | TN: 1964
+max_depth=10, min_samples_leaf=30, n_estimators=100
+Mean accuracy: 0.8014
+TP: 2061 | FN: 508
+FP: 485 | TN: 1946
 max_depth=10, min_samples_leaf=30, n_estimators=400, 
-Mean accuracy: 0.8024
-TP: 2072 | FN: 514
-FP: 474 | TN: 1940
+                     random_state=1
+Mean accuracy: 0.8068
+TP: 2075 | FN: 495
+FP: 471 | TN: 1959
 max_depth=10, min_samples_leaf=30, n_estimators=800, 
-Mean accuracy: 0.8038
-TP: 2073 | FN: 508
-FP: 473 | TN: 1946
+                     random_state=1
+Mean accuracy: 0.8044
+TP: 2070 | FN: 502
+FP: 476 | TN: 1952
 
 d2vdbow100:
-max_depth=10, min_samples_leaf=2
-Mean accuracy: 0.8138
-TP: 2198 | FN: 583
-FP: 348 | TN: 1871
+max_depth=10, min_samples_leaf=2, n_estimators=100
+Mean accuracy: 0.812
+TP: 2157 | FN: 551
+FP: 389 | TN: 1903
 max_depth=10, min_samples_leaf=2, n_estimators=400, 
-Mean accuracy: 0.8232
-TP: 2252 | FN: 590
-FP: 294 | TN: 1864
+                     random_state=1
+Mean accuracy: 0.8234
+TP: 2250 | FN: 587
+FP: 296 | TN: 1867
 max_depth=10, min_samples_leaf=2, n_estimators=800, 
-Mean accuracy: 0.826
-TP: 2245 | FN: 569
-FP: 301 | TN: 1885
-max_depth=10, min_samples_leaf=5
-Mean accuracy: 0.8152
-TP: 2104 | FN: 482
-FP: 442 | TN: 1972
+                     random_state=1
+Mean accuracy: 0.8234
+TP: 2239 | FN: 576
+FP: 307 | TN: 1878
+max_depth=10, min_samples_leaf=5, n_estimators=100
+Mean accuracy: 0.8112
+TP: 2128 | FN: 526
+FP: 418 | TN: 1928
 max_depth=10, min_samples_leaf=5, n_estimators=400, 
-Mean accuracy: 0.8238
-TP: 2235 | FN: 570
-FP: 311 | TN: 1884
+                     random_state=1
+Mean accuracy: 0.8234
+TP: 2227 | FN: 564
+FP: 319 | TN: 1890
 max_depth=10, min_samples_leaf=5, n_estimators=800, 
-Mean accuracy: 0.8202
-TP: 2261 | FN: 614
-FP: 285 | TN: 1840
-max_depth=10, min_samples_leaf=10
-Mean accuracy: 0.817
-TP: 2164 | FN: 533
-FP: 382 | TN: 1921
+                     random_state=1
+Mean accuracy: 0.8246
+TP: 2259 | FN: 590
+FP: 287 | TN: 1864
+max_depth=10, min_samples_leaf=10, n_estimators=100
+Mean accuracy: 0.8156
+TP: 2102 | FN: 478
+FP: 444 | TN: 1976
 max_depth=10, min_samples_leaf=10, n_estimators=400, 
-Mean accuracy: 0.8242
-TP: 2253 | FN: 586
-FP: 293 | TN: 1868
+                     random_state=1
+Mean accuracy: 0.8244
+TP: 2222 | FN: 554
+FP: 324 | TN: 1900
 max_depth=10, min_samples_leaf=10, n_estimators=800, 
-Mean accuracy: 0.8228
-TP: 2257 | FN: 597
-FP: 289 | TN: 1857
-max_depth=10, min_samples_leaf=20
-Mean accuracy: 0.8168
-TP: 2198 | FN: 568
-FP: 348 | TN: 1886
+                     random_state=1
+Mean accuracy: 0.8244
+TP: 2233 | FN: 565
+FP: 313 | TN: 1889
+max_depth=10, min_samples_leaf=20, n_estimators=100
+Mean accuracy: 0.8104
+TP: 2229 | FN: 631
+FP: 317 | TN: 1823
 max_depth=10, min_samples_leaf=20, n_estimators=400, 
-Mean accuracy: 0.8218
-TP: 2270 | FN: 615
-FP: 276 | TN: 1839
-max_depth=10, min_samples_leaf=20, n_estimators=800, 
+                     random_state=1
 Mean accuracy: 0.8196
-TP: 2259 | FN: 615
-FP: 287 | TN: 1839
-max_depth=10, min_samples_leaf=30
-Mean accuracy: 0.8202
-TP: 2197 | FN: 550
-FP: 349 | TN: 1904
+TP: 2265 | FN: 621
+FP: 281 | TN: 1833
+max_depth=10, min_samples_leaf=20, n_estimators=800, 
+                     random_state=1
+Mean accuracy: 0.8186
+TP: 2258 | FN: 619
+FP: 288 | TN: 1835
+max_depth=10, min_samples_leaf=30, n_estimators=100
+Mean accuracy: 0.8218
+TP: 2213 | FN: 558
+FP: 333 | TN: 1896
 max_depth=10, min_samples_leaf=30, n_estimators=400, 
-Mean accuracy: 0.8198
-TP: 2282 | FN: 637
-FP: 264 | TN: 1817
+                     random_state=1
+Mean accuracy: 0.8192
+TP: 2277 | FN: 635
+FP: 269 | TN: 1819
 max_depth=10, min_samples_leaf=30, n_estimators=800, 
-Mean accuracy: 0.8206
-TP: 2259 | FN: 610
-FP: 287 | TN: 1844
+                     random_state=1
+Mean accuracy: 0.8212
+TP: 2277 | FN: 625
+FP: 269 | TN: 1829
 
 w2vavg:
-max_depth=10, min_samples_leaf=2
+max_depth=10, min_samples_leaf=2, n_estimators=100
 Mean accuracy: 0.7298
 TP: 1910 | FN: 715
 FP: 636 | TN: 1739
 max_depth=10, min_samples_leaf=2, n_estimators=400, 
+                     random_state=1
 Mean accuracy: 0.7302
 TP: 1911 | FN: 714
 FP: 635 | TN: 1740
 max_depth=10, min_samples_leaf=2, n_estimators=800, 
+                     random_state=1
 Mean accuracy: 0.7304
 TP: 1911 | FN: 713
 FP: 635 | TN: 1741
-max_depth=10, min_samples_leaf=5
+max_depth=10, min_samples_leaf=5, n_estimators=100
 Mean accuracy: 0.7302
 TP: 1919 | FN: 722
 FP: 627 | TN: 1732
 max_depth=10, min_samples_leaf=5, n_estimators=400, 
+                     random_state=1
 Mean accuracy: 0.7306
 TP: 1911 | FN: 712
 FP: 635 | TN: 1742
 max_depth=10, min_samples_leaf=5, n_estimators=800, 
+                     random_state=1
 Mean accuracy: 0.732
 TP: 1914 | FN: 708
 FP: 632 | TN: 1746
-max_depth=10, min_samples_leaf=10
+max_depth=10, min_samples_leaf=10, n_estimators=100
 Mean accuracy: 0.726
 TP: 1891 | FN: 715
 FP: 655 | TN: 1739
 max_depth=10, min_samples_leaf=10, n_estimators=400, 
+                     random_state=1
 Mean accuracy: 0.7284
 TP: 1900 | FN: 712
 FP: 646 | TN: 1742
 max_depth=10, min_samples_leaf=10, n_estimators=800, 
+                     random_state=1
 Mean accuracy: 0.7312
 TP: 1906 | FN: 704
 FP: 640 | TN: 1750
-max_depth=10, min_samples_leaf=20
+max_depth=10, min_samples_leaf=20, n_estimators=100
 Mean accuracy: 0.7278
 TP: 1908 | FN: 723
 FP: 638 | TN: 1731
 max_depth=10, min_samples_leaf=20, n_estimators=400, 
+                     random_state=1
 Mean accuracy: 0.7302
 TP: 1911 | FN: 714
 FP: 635 | TN: 1740
 max_depth=10, min_samples_leaf=20, n_estimators=800, 
+                     random_state=1
 Mean accuracy: 0.7312
 TP: 1912 | FN: 710
 FP: 634 | TN: 1744
-max_depth=10, min_samples_leaf=30
+max_depth=10, min_samples_leaf=30, n_estimators=100
 Mean accuracy: 0.729
 TP: 1904 | FN: 713
 FP: 642 | TN: 1741
 max_depth=10, min_samples_leaf=30, n_estimators=400, 
+                     random_state=1
 Mean accuracy: 0.7274
 TP: 1906 | FN: 723
 FP: 640 | TN: 1731
 max_depth=10, min_samples_leaf=30, n_estimators=800, 
+                     random_state=1
 Mean accuracy: 0.7286
 TP: 1903 | FN: 714
 FP: 643 | TN: 1740

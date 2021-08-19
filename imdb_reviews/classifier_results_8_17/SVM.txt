@@ -23,30 +23,30 @@ FP: 440 | TN: 2046
 d2vdm:
 kernel=linear
 Mean accuracy: 0.8288
-TP: 2234 | FN: 544
-FP: 312 | TN: 1910
+TP: 2223 | FN: 533
+FP: 323 | TN: 1921
 
 Mean accuracy: 0.8294
-TP: 2193 | FN: 500
-FP: 353 | TN: 1954
+TP: 2181 | FN: 488
+FP: 365 | TN: 1966
 degree=2, kernel=poly
-Mean accuracy: 0.8006
-TP: 2118 | FN: 569
-FP: 428 | TN: 1885
+Mean accuracy: 0.8024
+TP: 2113 | FN: 555
+FP: 433 | TN: 1899
 kernel=poly
-Mean accuracy: 0.8236
-TP: 2208 | FN: 544
-FP: 338 | TN: 1910
+Mean accuracy: 0.8208
+TP: 2204 | FN: 554
+FP: 342 | TN: 1900
 kernel=sigmoid
-Mean accuracy: 0.8218
-TP: 2218 | FN: 563
-FP: 328 | TN: 1891
+Mean accuracy: 0.8248
+TP: 2216 | FN: 546
+FP: 330 | TN: 1908
 
 PV-DM:
 degree=4, kernel=poly
-Mean accuracy: 0.7968
-TP: 2316 | FN: 786
-FP: 230 | TN: 1668
+Mean accuracy: 0.795
+TP: 2325 | FN: 804
+FP: 221 | TN: 1650
 
 d2vdbow:
 kernel=linear
@@ -62,13 +62,13 @@ Mean accuracy: 0.8482
 TP: 2177 | FN: 390
 FP: 369 | TN: 2064
 kernel=poly
-Mean accuracy: 0.8288
-TP: 2314 | FN: 624
-FP: 232 | TN: 1830
+Mean accuracy: 0.8286
+TP: 2314 | FN: 625
+FP: 232 | TN: 1829
 kernel=sigmoid
-Mean accuracy: 0.8484
-TP: 2228 | FN: 440
-FP: 318 | TN: 2014
+Mean accuracy: 0.8466
+TP: 2211 | FN: 432
+FP: 335 | TN: 2022
 
 PV-DBOW:
 degree=4, kernel=poly

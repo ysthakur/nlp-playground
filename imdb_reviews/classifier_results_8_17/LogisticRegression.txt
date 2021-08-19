@@ -1,3 +1,9 @@
+BOW:
+max_iter=2000
+Mean accuracy: 0.8298
+TP: 2122 | FN: 427
+FP: 424 | TN: 2027
+
 tf-idf:
 
 Mean accuracy: 0.7834
@@ -6,9 +12,9 @@ FP: 589 | TN: 1960
 
 d2vdm50:
 
-Mean accuracy: 0.8308
-TP: 2244 | FN: 544
-FP: 302 | TN: 1910
+Mean accuracy: 0.827
+TP: 2236 | FN: 555
+FP: 310 | TN: 1899
 
 d2vdbow50:
 
@@ -18,9 +24,9 @@ FP: 314 | TN: 2028
 
 d2vdm100:
 
-Mean accuracy: 0.8282
-TP: 2214 | FN: 527
-FP: 332 | TN: 1927
+Mean accuracy: 0.8284
+TP: 2215 | FN: 527
+FP: 331 | TN: 1927
 
 d2vdbow100:
 
